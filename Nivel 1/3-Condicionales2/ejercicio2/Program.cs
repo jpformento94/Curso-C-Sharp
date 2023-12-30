@@ -19,7 +19,30 @@ litros = int.Parse(Console.ReadLine());
 Console.WriteLine("Ingrese importe de venta");
 importe = int.Parse(Console.ReadLine());
 
+if (litros <= 100)
+{
+    Console.WriteLine("No hay descuento, monto a pagar " + importe);
+}
+else
+{
+    if ((litros >= 101) && (litros <= 300))
+    {
+        importe = importe * 0.9F;
+        Console.WriteLine("Descuento del 10%, importe a pagar " + importe);
+    }
+    else
+    {
+        if ((litros >= 301) && (litros <= 500))
+        {
+            importe = importe * 0.85F;
+            Console.WriteLine("Descuento del 15%, importe a pagar " + importe);
+        }
+        else
+        {
+            importe = importe * 0.75F;
+            Console.WriteLine("Descuento del 25%, importe a pagar " + importe);
+        }
+    }
+}
 
-
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Probando git!");
+Console.ReadLine();
