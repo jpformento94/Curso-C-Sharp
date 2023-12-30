@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/*
+ * Hacer un programa para ingresar 4 números. Luego analizar e informar por pantalla si los mismos 
+ * se encuentran ordenados de forma decreciente .
+ */

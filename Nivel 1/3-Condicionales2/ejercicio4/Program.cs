@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/*
+ * Hacer un programa para ingresar tres números y emitir un cartel aclaratorio si la suma de 
+ * los dos primeros es mayor al producto del segundo con el tercero.
+ */
+
