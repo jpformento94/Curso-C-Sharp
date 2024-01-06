@@ -5,27 +5,20 @@
 
 int n1, n2, n3, n4;
 
-bool flag = true;
-
 Console.WriteLine("Ingrese numero 1");
 n1 = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Ingrese numero 2");
 n2 = int.Parse(Console.ReadLine());
 
-if (n2 > n1) flag = false;
-
 Console.WriteLine("Ingrese numero 3");
 n3 = int.Parse(Console.ReadLine());
-
-if (n3 > n2) flag = false;
 
 Console.WriteLine("Ingrese numero 4");
 n4 = int.Parse(Console.ReadLine());
 
-if (n4 > n3) flag = false;
 
-if (flag)
+if ((n2 < n1) && (n3 < n2) && (n4 < n3))
 {
     Console.WriteLine("Estan ordenados de forma decreciente");
 }
