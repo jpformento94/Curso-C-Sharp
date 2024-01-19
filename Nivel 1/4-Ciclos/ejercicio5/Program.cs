@@ -6,17 +6,20 @@
 int n = 0;
 int mayor_par = 0;
 int menor_impar = 0;
+bool flag_par = false;
+bool flag_impar = false;
 
-for (int i = 0; i < 20; i++)
+for (int i = 0; i < 5; i++)
 {
     Console.WriteLine("Ingrese un numero");
     n = int.Parse(Console.ReadLine());
 
     if ((n % 2) == 0)
     {
-        if (mayor_par == 0)
+        if (flag_par == false)
         {
             mayor_par = n;
+            flag_par = true;
         }
         else
         {
@@ -25,13 +28,14 @@ for (int i = 0; i < 20; i++)
     }
     else
     {
-        if (menor_impar == 0)
+        if (flag_impar == false)
         {
             menor_impar = n;
+            flag_impar = true;
         }
         else
         {
-            if (n > menor_impar) { menor_impar = n; }
+            if (n < menor_impar) { menor_impar = n; }
         }
     }
 }
