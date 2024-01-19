@@ -9,7 +9,7 @@ int menor_impar = 0;
 bool flag_par = false;
 bool flag_impar = false;
 
-for (int i = 0; i < 5; i++)
+for (int i = 0; i < 20; i++)
 {
     Console.WriteLine("Ingrese un numero");
     n = int.Parse(Console.ReadLine());
