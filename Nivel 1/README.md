@@ -1,1 +1,20 @@
 # Nivel 1 ejercicios
+
+### 1. Primeros programa
+    1. Hacer un programa para solicitar dos números y luego calcule y emita la suma en pantalla.
+
+    2. Hacer un programa para solicitar por teclado un número y luego devolver su valor elevado al cubo.
+
+    3. Hacer un programa que permita ingresar los kilómetros existentes entre dos ciudades y la velocidad promedio de un vehículo. Calcular y emitir por pantalla el tiempo aproximado que demandará llegar de un punto a otro teniendo en cuenta los datos ingresados.
+
+    4. Una casa de computación paga a sus empleados un sueldo fijo de ARS15000 más una comisión del 5% sobre el total facturado por cada empleado. Hacer un programa para ingresar el total facturado por un empleado y que luego calcule y emita por pantalla el sueldo total a cobrar por el mismo.
+
+    5. Hacer un programa para ingresar por teclado las tres notas de exámenes de un alumno y luego calcule y emita por pantalla el promedio final.
+
+
+3. Condicionales
+4. Condicionales 2
+5. Ciclos
+6. Ciclos combinados
+7. Vectores
+8. Funciones
