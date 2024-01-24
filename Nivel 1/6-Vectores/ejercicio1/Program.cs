@@ -4,7 +4,27 @@
  * dentro del vector.
  */
 
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-int[] numeros = new int[100000000000];
+int maximo, posicion;
+
+int[] numeros = new int[10];
+
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine("Ingrese un numero");
+    numeros[i] = int.Parse(Console.ReadLine());
+}
+
+posicion = 0;
+maximo = numeros[0];
+
+for (int i = 1; i < 10; i++)
+{
+    if (numeros[i] > maximo)
+    {
+        maximo = numeros[i];
+        posicion = i;
+    }
+}
+
+Console.WriteLine("El maximo es " + maximo + " y esta en la posicion " +  posicion);
 Console.ReadLine();

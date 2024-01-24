@@ -4,3 +4,27 @@
  * que son mayores al promedio.
  */
 
+float promedio = 0;
+
+int[] numeros = new int[10];
+
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine("Ingrese numero");
+    numeros[i] = int.Parse(Console.ReadLine());
+    promedio = promedio + numeros[i];
+}
+
+promedio = promedio / 10;
+Console.WriteLine("El promedio es " + promedio);
+Console.WriteLine("Los numeros mayores al promedio son");
+
+for (int i = 0; i < 10; i++)
+{
+    if (numeros[i] > promedio)
+    {
+        Console.WriteLine(numeros[i]);
+    }
+}
+
+Console.ReadLine();
