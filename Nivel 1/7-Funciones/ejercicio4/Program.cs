@@ -30,8 +30,8 @@ static void positivoNegativoCero(ref int referencia, int valor)
 
 
 
-int x = 100;
-int y = 100;
+int x = 10;
+int y = 10;
 
 positivoNegativoCero(ref x, y);
 Console.WriteLine("Variable por referencia " + x);
