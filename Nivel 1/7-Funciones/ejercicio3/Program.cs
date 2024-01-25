@@ -33,8 +33,8 @@ static int primo(int n)
 
 static float promedioPrimos(int[] numeros)
 {
-    int contador = 0;
-    int acumulador = 0;
+    float contador = 0;
+    float acumulador = 0;
     float promedio = 0;
 
     for (int i = 0; i < numeros.Length; i++)
@@ -45,7 +45,8 @@ static float promedioPrimos(int[] numeros)
             contador++;
         }
     }
-    return acumulador / contador;
+    promedio = acumulador / contador;
+    return promedio;
 }
 
 static void cargarVector(ref int[] numeros)
@@ -60,5 +61,5 @@ static void cargarVector(ref int[] numeros)
 }
 
 cargarVector(ref numeros);
-Console.WriteLine("El promedio de los nunmeros primos es " + promedioPrimos(numeros));
+Console.WriteLine($"El promedio de los numeros primos es {promedioPrimos(numeros).ToString("0.00")}");
 Console.ReadLine();
