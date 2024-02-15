@@ -29,6 +29,6 @@
 
     1. 
 
-### 8. Desarrollo de App.
+### 8. Desarrollo de App
 
     1. 
