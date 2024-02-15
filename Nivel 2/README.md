@@ -1,6 +1,7 @@
 # Nivel 2 ejercicios
 
 ### 1. Introducción a Visual Studio
+
     1. Crear un proyecto de consola .Net Framework y ejecutar el "Hola Mundo".
 
     2. Crear un proyecto de WinForm con .Net Framework y ejecutar nuestra primera ventana gráfica.
